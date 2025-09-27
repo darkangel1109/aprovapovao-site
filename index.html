@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Aprova Povão</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #d2f4d2, #f0fff0);
+    color: #2a7a1d;
+  }
+
+  header {
+    background-color: #2a7a1d;
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+  }
+
+  header img {
+    max-width: 120px;
+    margin-bottom: 10px;
+  }
+
+  header h1 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 2.8rem;
+    letter-spacing: 2px;
+  }
+
+  nav {
+    background-color: #3ba539;
+    display: flex;
+    justify-content: center;
+    padding: 12px 0;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0 20px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    padding: 8px 15px;border-radius: 6px;
+  }
+
+  nav a:hover {
+    background-color: #2a7a1d;
+  }
+
+  main {
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+  }
+
+  main h2 {
+    font-weight: 600;
+    border-bottom: 3px solid #2a7a1d;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+  }
+
+  main p, main ul {
+    font-weight: 300;
+    line-height: 1.7;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+  }
+
+  main ul {
+    padding-left: 20px;
+  }
+
+  main ul li {
+    margin-bottom: 10px;
+  }
+
+  .btn-cta {
+    display: inline-block;
+    background-color: #2a7a1d;
+    color: white;
+    padding: 15px 30px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn-cta:hover {
+    background-color: #3ba539;
+  }
+
+  footer {
+    margin-top: 60px;
+    text-align: center;
+    color: #444;
+    font-size: 0.9rem;
+    padding: 20px 10px;
+  }
+
+  @media (max-width: 600px) {
+    main {
+      padding: 20px 15px;
+    }
+    nav {
+      flex-direction: column;
+    }
+    nav a {
+      margin: 8px 0;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <img src="https://i.imgur.com/CKbvtXL.png" alt="Logo Aprova Povão" /><h1>Aprova Povão</h1>
+</header>
+
+<nav>
+  <a href="#sobre">Sobre</a>
+  <a href="#como-funciona">Como Funciona</a>
+  <a href="#impacto">Impacto</a>
+  <a href="#contato">Contato</a>
+</nav>
+
+<main>
+  <section id="sobre">
+    <h2>Sobre o Projeto</h2>
+    <p>
+      O Aprova Povão é um pré-vestibular online criado para estudantes de comunidades remotas que enfrentam dificuldades para acessar cursinhos presenciais. Nosso objetivo é democratizar o acesso à educação e ampliar as chances de aprovação no vestibular e ENEM.
+    </p>
+  </section>
+
+  <section id="como-funciona">
+    <h2>Como Funciona</h2>
+    <ul>
+      <li>Plataforma online leve, acessível via celular.</li>
+      <li>Aulas ao vivo e gravadas com professores qualificados.</li>
+      <li>Material de apoio digital (apostilas e exercícios).</li>
+      <li>Monitoria online para tirar dúvidas.</li>
+      <li>Preços acessíveis e bolsas para famílias de baixa renda.</li>
+      <li>Parcerias locais para divulgação e pontos de internet.</li>
+    </ul>
+  </section>
+
+  <section id="impacto">
+    <h2>Nosso Impacto</h2>
+    <p>
+      Nosso projeto visa reduzir a desigualdade educacional, incentivar jovens e fortalecer o desenvolvimento social das comunidades do interior.
+    </p>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2><p>Quer saber mais ou ajudar? Entre em contato conosco!</p>
+    <a href="mailto:contato@aprovapovao.com" class="btn-cta">Enviar Email</a>
+  </section>
+</main>
+
+<footer>
+  &copy; 2025 Aprova Povão - Todos os direitos reservados.
+</footer>
+
+</body>
+</html>
